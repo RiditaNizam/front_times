@@ -8,10 +8,14 @@ def front_times(str, n):
   answerString = ""
   
   for i in range(n):
+  
     if len(str) == 1:
       answerString += str[0]
+      
     elif len(str) == 2:
       answerString += str[0:2]
+      
     elif len(str) >= 3:
       answerString += str[0:3]
+      
   return answerString
